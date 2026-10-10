@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b09">
+  <meta name="description" content="Rick_Prime — La Dimensión Prime. Sistema de control dimensional para Discord.">
+  <title>Rick_Prime — La Dimensión Prime</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="grid-overlay"></div>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Rick Prime inicio">
+      <span class="brand-mark">R<span>✦</span></span>
+      <span>RICK<span class="green">_PRIME</span><small>LA DIMENSIÓN PRIME</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+    <nav id="nav">
+      <a href="#funciones">Funciones</a>
+      <a href="#comandos">Comandos</a>
+      <a href="#dimension">La dimensión</a>
+      <a href="#panel">Panel</a>
+      <a class="nav-cta" href="#panel">Acceder ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> SISTEMA DIMENSIONAL · EN LÍNEA</div>
+        <h1>NO SIGO<br>LAS REGLAS.<br><span>LAS REESCRIBO.</span></h1>
+        <p class="hero-sub">El control no se solicita. Se toma.</p>
+        <p class="muted">Moderación, seguridad y herramientas para tu servidor Discord. Bienvenido a la dimensión donde la inteligencia tiene el control.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" id="inviteLink" href="https://discord.com/developers/applications" target="_blank" rel="noreferrer">INVOCAR A RICK ↗</a>
+          <a class="button button-ghost" href="#funciones">EXPLORAR SISTEMAS ↓</a>
+        </div>
+        <div class="hero-foot"><span>◇ DIMENSIÓN PRIME</span><span>PROTOCOLO RP-01</span><span>EST. 2024</span></div>
+      </div>
+      <div class="portal-wrap" aria-label="Portal dimensional decorativo">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="portal"><div class="portal-core"></div><div class="portal-scan"></div></div>
+        <div class="float-tag tag-top">RICK PRIME <b>///</b></div>
+        <div class="float-tag tag-bottom"><i></i> PORTAL ESTABLE <b>99.9%</b></div>
+        <div class="coordinate">X: 001 · Y: PRIME<br>Z: ∞</div>
+      </div>
+    </section>
+
+    <section class="stats-strip">
+      <div><strong id="statusValue">PREPARADO</strong><span>ESTADO DEL SISTEMA</span></div>
+      <div><strong>24/7</strong><span>VIGILANCIA</span></div>
+      <div><strong>∞</strong><span>POSIBILIDADES</span></div>
+      <div><strong>RP-01</strong><span>PROTOCOLO</span></div>
+    </section>
+
+    <section class="section" id="funciones">
+      <div class="section-heading"><div class="eyebrow">01 / CAPACIDADES</div><h2>UN SISTEMA.<br><span>MÚLTIPLES VENTAJAS.</span></h2><p class="muted">Cada función existe por una razón. La eficiencia no es opcional.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon">⌘</div><span class="card-index">SYS.01</span><h3>MODERACIÓN</h3><p>Herramientas para administrar tu comunidad con controles claros y permisos adecuados.</p><div class="card-line"></div></article>
+        <article class="feature-card"><div class="feature-icon">⛨</div><span class="card-index">SYS.02</span><h3>SEGURIDAD</h3><p>Configuración para proteger canales, registrar eventos y reforzar la vigilancia.</p><div class="card-line"></div></article>
+        <article class="feature-card"><div class="feature-icon">▦</div><span class="card-index">SYS.03</span><h3>TICKETS</h3><p>Organiza solicitudes de soporte con un sistema accesible desde Discord.</p><div class="card-line"></div></article>
+        <article class="feature-card"><div class="feature-icon">✧</div><span class="card-index">SYS.04</span><h3>NIVELES</h3><p>Reconoce la actividad de la comunidad con herramientas de progresión.</p><div class="card-line"></div></article>
+        <article class="feature-card"><div class="feature-icon">◈</div><span class="card-index">SYS.05</span><h3>AUTOROLES</h3><p>Permite que los miembros elijan roles mediante paneles interactivos.</p><div class="card-line"></div></article>
+        <article class="feature-card"><div class="feature-icon">⌬</div><span class="card-index">SYS.06</span><h3>CONFIGURACIÓN</h3><p>Gestiona opciones del panel web después de autenticarte con Discord.</p><div class="card-line"></div></article>
+      </div>
+    </section>
+
+    <section class="section command-section" id="comandos">
+      <div class="section-heading"><div class="eyebrow">02 / TERMINAL</div><h2>COMANDOS <span>DISPONIBLES.</span></h2><p class="muted">Vista de referencia. Los comandos exactos dependen de los módulos instalados en tu bot.</p></div>
+      <div class="command-panel">
+        <div class="terminal-top"><span class="terminal-dots"><i></i><i></i><i></i></span><span>RICK_PRIME / COMMAND INDEX</span><span class="terminal-live">● LOCAL</span></div>
+        <div class="command-list">
+          <div><code>.help</code><span>Consultar las categorías de ayuda</span><b>INFO</b></div>
+          <div><code>.ban @usuario</code><span>Expulsar permanentemente a un miembro</span><b>MOD</b></div>
+          <div><code>.kick @usuario</code><span>Expulsar a un miembro del servidor</span><b>MOD</b></div>
+          <div><code>.ticket</code><span>Publicar el panel de soporte</span><b>SYSTEM</b></div>
+          <div><code>.reglas</code><span>Mostrar el panel de reglas</span><b>SYSTEM</b></div>
+          <div><code>.serverinfo</code><span>Consultar información del servidor</span><b>INFO</b></div>
+        </div>
+        <p class="terminal-note">> Prefijo ilustrativo: <strong>.</strong> · Confirma los comandos registrados en tu bot antes de publicar esta lista.</p>
+      </div>
+    </section>
+
+    <section class="dimension-banner section" id="dimension">
+      <div class="banner-symbol">R<span>✦</span></div>
+      <div><div class="eyebrow">03 / IDENTIDAD DIMENSIONAL</div><h2>LA DIMENSIÓN PRIME.</h2><p>No es un lugar para seguir al resto. Es el punto de origen de quienes toman el control.</p></div>
+      <div class="banner-code">PRIME<br><span>UNIVERSE</span><br>∞.001</div>
+    </section>
+
+    <section class="section dashboard-section" id="panel">
+      <div class="section-heading"><div class="eyebrow">04 / ACCESO RESTRINGIDO</div><h2>EL CONTROL<br><span>ESTÁ EN TUS MANOS.</span></h2><p class="muted">Inicia sesión con Discord. Solo podrás administrar servidores donde tengas permisos de administrador o gestión del servidor.</p></div>
+      <div class="dashboard-card">
+        <div class="dash-emblem">⌘</div>
+        <div class="dash-content"><span class="secure-label"><i></i> DISCORD OAUTH2 · ACCESO SEGURO</span><h3 id="authTitle">IDENTIFÍCATE, ADMINISTRADOR.</h3><p id="authDescription">Autoriza tu identidad mediante Discord. Nunca te pediremos tu contraseña ni el token de tu bot.</p>
+          <div class="dash-actions"><button class="button button-primary" id="loginButton">CONTINUAR CON DISCORD ↗</button><button class="button button-ghost hidden" id="logoutButton">CERRAR SESIÓN</button></div>
+          <div id="dashboardArea" class="hidden">
+            <label for="guildSelect">SERVIDOR AUTORIZADO</label><select id="guildSelect"><option value="">Cargando servidores…</option></select>
+            <div class="settings-grid">
+              <label>Prefijo<input id="prefixInput" maxlength="5" value="." autocomplete="off"></label>
+              <label>ID canal de bienvenida<input id="welcomeChannel" inputmode="numeric" placeholder="ID del canal"></label>
+              <label>ID canal de registros<input id="logChannel" inputmode="numeric" placeholder="ID del canal"></label>
+            </div>
+            <div class="toggle-row"><div><b>Bienvenida</b><small>Guardar el canal configurado para bienvenidas.</small></div><input id="welcomeEnabled" type="checkbox" checked></div>
+            <div class="toggle-row"><div><b>Registros</b><small>Guardar el canal de logs del servidor.</small></div><input id="logsEnabled" type="checkbox" checked></div>
+            <div class="toggle-row"><div><b>Antispam</b><small>Guardar la preferencia antispam para la integración del bot.</small></div><input id="antiSpamEnabled" type="checkbox"></div>
+            <button class="button button-primary save-button" id="saveButton">GUARDAR CONFIGURACIÓN</button>
+            <p class="form-message" id="formMessage" role="status"></p>
+            <p class="tiny-note">Los ajustes se guardan de forma segura en la nube. Para aplicarlos a funciones existentes de tu bot, instala y conecta el puente de Termux incluido en el paquete.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><a class="brand footer-brand" href="#inicio"><span class="brand-mark">R<span>✦</span></span><span>RICK<span class="green">_PRIME</span><small>LA DIMENSIÓN PRIME</small></span></a><span>EL MULTIVERSO NO ESPERA A NADIE.</span><a href="#inicio">VOLVER ARRIBA ↑</a></footer>
+  <script src="/app.js" defer></script>
+</body>
+</html>
